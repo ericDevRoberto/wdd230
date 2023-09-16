@@ -73,6 +73,10 @@
   font-size: 20px;
 }
 
+.menu-activities {
+  list-style-type: none;
+}
+
 .menu-activities-title, .menu-location-title {
   margin-top: .1px;
   width: auto;
@@ -113,6 +117,7 @@
   padding-bottom: 20px;
   color: aliceblue;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
 }
 
 .footer-name, .footer-year {
