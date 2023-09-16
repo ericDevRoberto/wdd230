@@ -1,67 +1,137 @@
 .header {
   display: flex;
-  background-color: DodgerBlue;
+  background-color: #1e90ff;
   height: 300px;
-  border-radius: 25px;
-  width: 700px;
+  width: auto;
+  justify-content: center;
 }
 
 .image {
   height: 200px;
   margin-top: 50px;
-  margin-left: 50px;
+  margin-right: 50px;
   box-shadow: 1px 1px 1px 5px #00000065;
 }
 
 .name-title {
   margin-top: 130px;
   margin-left: 10px;
-  font: oblique;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: aliceblue;
   font-size: 40px;
   text-shadow: 2px 2px 4px #000000;
 }
 
-.title {
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;  
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: black;
-  font-size: 40px;
+}
+
+.vertical-menu {
+  text-align: center;
+  width: auto;
+  font-size: 20px;
+}
+
+.vertical-menu a {
+  background-color: #0f467e;
+  color: white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+  color: #000000;
+}
+
+.title {  
+  font-size: 25px;
   text-shadow: 2px 2px 4px #363535bd;
+  text-align: center;
 }
 
 .divider {
   width: 700px;
   height: 1px;
   background-color: #363535bd;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-ul li {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.menu-activities-container, .menu-location-container {  
+  width: 700px;
+  margin-top: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  border-spacing: 1px;
+  font-size: 20px;
 }
 
-.baixo {
-  font-style: italic;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.menu-activities-title, .menu-location-title {
+  margin-top: .1px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  background-color: #1e90ff;
+  border-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  text-align: center;
+  padding: 15px;
+  color: white;
 }
+
+.menu-location-container{
+  text-align: center;
+}
+
+.menu-location-counter {
+  text-align: center;
+}
+
+.menu-location-counter p {
+  display: table-cell;
+  
+}
+
 
 .footer {
   display: flex;
   background-color: DodgerBlue;
-  border-radius: 25px;
-  width: 700px;
-  height: 115px;
+  width: auto;
+  height: 200px;
   flex-direction: column;
   align-items: center;
   align-content: space-between;
-}
-
-.footer-name {
+  padding-bottom: 20px;
   color: aliceblue;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.footer-name, .footer-year {
+  color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-country {
+  display: flex;
+  justify-content: center;
+}
+
+.flag-image {
+  margin-left: 25px;
+  height:50px;
+}
+
 .footer-date {
+  margin-top: 15px;
   color: yellow;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
