@@ -30,9 +30,13 @@
 }
 
 .vertical-menu {
+  display: flex;
+  justify-content: space-around;
   text-align: center;
   width: auto;
-  font-size: 20px;
+  flex-direction: column;
+  font-size: 20px;  
+  background-color: #0f467e
 }
 
 .vertical-menu a {
@@ -139,4 +143,47 @@
   margin-top: 15px;
   color: yellow;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 700px)  {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    height: 450px;
+  }
+
+  .name-title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image {
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .divider {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0px;
+  }
+
+  .menu-activities-container, .menu-location-container {  
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0px;
+    margin-top: 0px;
+  }
+
+  .menu-activities-title, .menu-location-title {
+    border-radius: 0px;
+  }
+
+  .footer {
+    margin-top: 0px;
+  }
 }
