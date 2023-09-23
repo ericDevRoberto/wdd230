@@ -1,0 +1,44 @@
+.section-sites {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .article {
+    margin-top: 15px;
+    width: 420px;
+    background-color: darkgray;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  
+  .article-header {
+    background-color: rgb(56, 65, 65);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-top: 1px;
+  }
+  
+  .article-theme {
+    color: white;
+    margin: auto;
+    text-align: start;
+    padding: 10px;
+  }
+  
+  .article-content {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .article-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  
+  .article-paragraph {
+    padding-bottom: 15px;
+  }
