@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  background-color: #1e90ff;
+  background-color: #004F9E;
   height: 300px;
   width: auto;
   justify-content: center;
@@ -36,7 +36,7 @@
   width: auto;
   flex-direction: column;
   font-size: 20px;  
-  background-color: #0f467e
+  background-color: #0f467e;
 }
 
 .vertical-menu a {
@@ -48,7 +48,7 @@
 }
 
 .vertical-menu a:hover {
-  background-color: #ccc;
+  background-color: #fff;
   color: #000000;
 }
 
@@ -87,7 +87,7 @@
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
-  background-color: #1e90ff;
+  background-color: #004F9E;
   border-radius: 8px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
@@ -112,20 +112,20 @@
 
 .footer {
   display: flex;
-  background-color: DodgerBlue;
+  background-color: #004F9E;
   width: auto;
   height: 200px;
   flex-direction: column;
   align-items: center;
   align-content: space-between;
   padding-bottom: 20px;
-  color: aliceblue;
+  color: #fff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 20px;
 }
 
 .footer-name, .footer-year {
-  color: aliceblue;
+  color: #ffffff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -141,7 +141,7 @@
 
 .footer-date {
   margin-top: 15px;
-  color: yellow;
+  color: #ffff00;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
