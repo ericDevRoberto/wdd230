@@ -1,44 +1,80 @@
 .section-sites {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article {
+  margin-top: 15px;
+  width: 420px;
+  background-color: #faf1f1;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.article-header {
+  background-color: #0f467e;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding-top: 1px;
+}
+
+.article-theme {
+  color: white;
+  margin: auto;
+  text-align: start;
+  padding: 10px;
+}
+
+.article-content {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.article-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.article-paragraph {
+  padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .section-sites {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: px;
+    grid-row-gap: 20px;
   }
-  
+
   .article {
-    margin-top: 15px;
-    width: 420px;
-    background-color: darkgray;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    margin-top: 0px;
+    width: auto;
   }
-  
+
   .article-header {
-    background-color: rgb(56, 65, 65);
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    padding-top: 1px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
   }
-  
-  .article-theme {
-    color: white;
-    margin: auto;
-    text-align: start;
-    padding: 10px;
-  }
-  
-  .article-content {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
+
   .article-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+    width: 100%;
+    height: auto;
   }
-  
-  .article-paragraph {
-    padding-bottom: 15px;
+
+  a {
+    width: 100%;
+    height: auto;
   }
+  body {
+    margin: auto;
+  }
+}
