@@ -52,6 +52,7 @@
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 50px;
     grid-row-gap: 0px;
+    width: 100%;
   }
 }
 
@@ -67,12 +68,13 @@
 
   .article {
     margin-top: 0px;
-    width: auto;
+    width: 100%;
   }
 
   .article-header {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+    width: 100%;
   }
 
   .article-image {
@@ -80,11 +82,8 @@
     height: auto;
   }
 
-  a {
-    width: 100%;
-    height: auto;
-  }
   body {
+    width: 100%;
     margin: auto;
   }
 }
