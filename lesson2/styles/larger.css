@@ -1,7 +1,6 @@
 .section-sites {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
   grid-column-gap: 50px;
   grid-row-gap: 0px;
   margin-left: auto;
@@ -46,13 +45,24 @@
   padding-bottom: 15px;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1400px) {
+  .section-sites {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
   .section-sites {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: px;
-    grid-row-gap: 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
   }
 
   .article {
