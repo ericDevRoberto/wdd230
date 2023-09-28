@@ -183,7 +183,6 @@
     content: "X";
   }
   
-  /* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
   .open {
     display: block;
     width: 100%;
@@ -227,6 +226,10 @@
 
   .menu-activities-title, .menu-location-title {
     border-radius: 0px;
+  }
+
+  .title {
+    margin-top: 50px;
   }
 
   .menu-map-container.open {
