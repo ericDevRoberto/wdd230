@@ -30,6 +30,8 @@
 }
 
 .vertical-menu {
+  display: flex;
+  justify-content: space-around;
   text-align: center;
   width: auto;
   font-size: 20px;  
@@ -46,8 +48,7 @@
 }
 
 .vertical-menu a:hover {
-  background-color: #fff;
-  color: #000000;
+  text-decoration: underline;
 }
 
 .title {  
@@ -154,7 +155,7 @@
 @media screen and (max-width: 700px)  {
 
   .vertical-menu {
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: space-around;
   }
 
